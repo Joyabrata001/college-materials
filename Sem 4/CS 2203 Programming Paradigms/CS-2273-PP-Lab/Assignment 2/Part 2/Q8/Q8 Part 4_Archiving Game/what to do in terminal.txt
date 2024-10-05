@@ -1,0 +1,19 @@
+g++ -c play.cpp 
+
+    -c  stop the compiling process after the assembling stage, translating our files from .c to .o
+
+    will generate play.o
+
+
+Now Deleted play.cpp for code protection [backup in "Q8 Part 3_Making Additions" folder]    
+
+g++ main.cpp *.o
+
+    * is wildcard
+
+    will generate a.out
+
+./a.out
+
+one liner after compilation of .o files: 
+g++ main.cpp *.o && ./a.out

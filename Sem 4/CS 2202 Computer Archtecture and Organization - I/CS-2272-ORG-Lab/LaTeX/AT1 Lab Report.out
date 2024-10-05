@@ -1,0 +1,5 @@
+\BOOKMARK [1][-]{section.1}{Organization of md memory with Flip Flops}{}% 1
+\BOOKMARK [1][-]{section.2}{Design of Carry-Look-Ahead Adder}{}% 2
+\BOOKMARK [1][-]{section.3}{Implementation of data movement instructions}{}% 3
+\BOOKMARK [1][-]{section.4}{Swapping contents of registers using Microprogram}{}% 4
+\BOOKMARK [1][-]{section.5}{Design of Sequence Counter for Processor Control Unit}{}% 5

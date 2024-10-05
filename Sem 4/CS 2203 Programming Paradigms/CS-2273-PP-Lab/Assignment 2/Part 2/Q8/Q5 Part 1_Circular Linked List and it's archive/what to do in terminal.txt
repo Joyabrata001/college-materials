@@ -1,0 +1,27 @@
+g++ -c circular_linked_list.cpp 
+
+    -c  stop the compiling process after the assembling stage, translating our files from .c to .o
+
+    will generate circular_linked_list.o
+
+ar -rc libcircularLL.a circular_linked_list.o
+
+    the -rc options create the archive without a warning and replaces any pre-existing object files in the library with the same name.
+    
+    generates libcircularLL.a
+
+Now Deleted recursion.c for code protection [backup in Problem 2 folder]    
+
+g++ main.cpp -L . -l circularLL 
+
+    -L says “look in directory for library files”
+
+    . (the dot after ‘L’) represents the current working directory
+
+    -l says “link with this library file”
+
+    circularLL is the name of our library. Note that we omitted the “lib” prefix and “.a” extension. The linker attaches these parts back to the name of the library to create a name of a file to look for.
+
+    will generate a.out
+
+./a.out

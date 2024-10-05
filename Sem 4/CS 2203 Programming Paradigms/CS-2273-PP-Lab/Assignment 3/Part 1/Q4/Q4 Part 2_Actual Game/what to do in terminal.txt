@@ -1,0 +1,19 @@
+g++ -c circular_linked_list_game.cpp
+
+    -c  stop the compiling process after the assembling stage, translating our files from .c to .o
+
+    will generate circular_linked_list_game.o
+
+
+Now Deleted circular_linked_list_game.cpp for code protection [backup in ".hidden" folder]    
+
+g++ main.cpp *.o
+
+    * is wildcard
+
+    will generate a.out
+
+./a.out
+
+one liner after compilation of .o files: 
+g++ main.cpp *.o && ./a.out
