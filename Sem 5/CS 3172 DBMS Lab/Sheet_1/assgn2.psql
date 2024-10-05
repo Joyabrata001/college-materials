@@ -1,0 +1,88 @@
+------------------------------------Assignment 2--------------------------------------
+
+-- Count the number of students in CSE dept.
+SELECT count(*)
+FROM students
+WHERE deptcode = 'CST';
+
+--Determine the minimum, maximum and average marks of each courses.
+SELECT	
+	crs_cd,
+	crs_name,
+	min(marks),
+	avg(marks),
+	max(marks)
+FROM
+	crs_regd,
+	crs_offrd
+WHERE crs_regd.crs_cd = crs_offrd.crs_code
+GROUP BY (crs_cd, crs_name) -- crs_name here only because I wanted crs_name to be displayed, also we can say that pair (crs_cd, crs_name) will be unique
+ORDER BY crs_cd;
+
+--Determine the total credits of the courses registered by a student. (Assuming total credit gained by the student)
+SELECT 
+	crs_regd.crs_rollno as roll_no,
+	sum(crs_offrd.crs_credits * crs_regd.marks/100) as total_credits
+FROM crs_regd, crs_offrd
+WHERE crs_regd.crs_cd = crs_offrd.crs_code
+GROUP BY crs_regd.crs_rollno
+ORDER BY crs_regd.crs_rollno;
+
+--Count the number of students in each hostel whose department is CSE.
+SELECT 
+	hostel,
+	count(*) as num_students
+FROM students
+WHERE deptcode = 'CST'
+GROUP BY hostel;
+
+-- Display the hostel,rollno,parent_inc of the student who has the max(parent_inc) in a hostel.
+SELECT
+	hostel,
+	rollno,
+	parent_inc
+FROM students
+WHERE parent_inc in (SELECT max(parent_inc) 
+					FROM students 
+					GROUP BY hostel)
+ORDER BY hostel;
+
+-- Display the name and parental income of each student greater than 
+-- the parental income of some rollno 92005010.
+SELECT
+	name,
+	parent_inc
+FROM students
+WHERE parent_inc > (SELECT parent_inc 
+					FROM students 
+					WHERE rollno = 92005010);
+
+-- Find out marks of students who have marks more than
+-- rollno 92005102 for course CH103 and PH106.
+
+SELECT 
+	crs_rollno,
+	crs_cd, 
+	marks
+FROM crs_regd
+WHERE(
+	(
+		crs_cd = 'CH103'
+		AND 
+		marks > (
+					SELECT marks
+					FROM crs_regd
+					WHERE crs_rollno = 92005102 AND crs_cd = 'CH103'
+				)
+	)
+	OR 
+	(
+		crs_cd = 'PH106'
+		AND 
+		marks > (
+					SELECT marks
+					FROM crs_regd
+					WHERE crs_rollno = 92005102 AND crs_cd = 'PH106'
+				)
+	)
+);

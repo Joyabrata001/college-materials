@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d75496c8-17c7-4a98-962e-2ceff1652421" name="Changes" comment="Add: added shape 3, ig Assign Complete">
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Beak/Beak.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/beak/Beak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Beak/BeakBottomTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/beak/BeakBottomTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Beak/BeakTopTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/beak/BeakTopTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/BodyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/body/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Ear/Ear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/ear/Ear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Head/Head.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/head/Head.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/Bird/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/ShapeDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/ShapeDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/tail/Tail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Creature/src/com/abhiroop/bird/tail/Tail.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1y7lUHpUjdUIAjS6q2jFBgPzUan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/abhiroop/part2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abhir\OneDrive\IIEST\Study Material\Sem 5\CS 3181 Graphics Lab\My Codes\3_Circle_Drawing\src\com\abhiroop\part2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.abhiroop.part3" />
+      <recent name="com.abhiroop.prereq" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.abhiroop.Main" />
+      <module name="3_Circle_Drawing" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d75496c8-17c7-4a98-962e-2ceff1652421" name="Changes" comment="" />
+      <created>1631610527371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631610527371</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added Mid-Point Circle Drawing Algorithm">
+      <created>1631619332855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631619332855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Simplifies Mid-Point Circle Drawing Algorithm">
+      <created>1631860870010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631860870010</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Simplified Mid-Point Circle Drawing Algorithm">
+      <created>1631860923343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631860923343</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fancy Circle Drawing Algorithm">
+      <created>1631863250863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631863250863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed Fancy Circles for Performance">
+      <created>1631865299717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631865299717</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Ellipse Drawing">
+      <created>1631865338238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631865338238</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix: made BaseGraph use user defined code instead&#10;in-built code">
+      <created>1632221016095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632221016096</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix1: rename zoomer to zoomed &#10;Fix2: made BaseGraph use user defined line draw instead of built-in&#10;Rename: rename getxOrigin() to getXOrigin() [same for getYOrigin]">
+      <created>1632221406388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632221406388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix: made drawPixel() to make a line instead of oval to maintain visibility when zoomed">
+      <created>1632221446093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632221446093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit: added more ellipse for drawing">
+      <created>1632221465681</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632221465681</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add: added shape_one drawing according to assignment">
+      <created>1632221491678</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632221491678</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Edit: name change for easier typing">
+      <created>1632826580575</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632826580575</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add: Shape 2">
+      <created>1632826602729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1632826602729</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix: added degree to radian conversion">
+      <created>1632827492512</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1632827492512</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add: added shape 3, ig Assign Complete">
+      <created>1632827519033</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1632827519033</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Mid-Point Circle Drawing Algorithm" />
+    <MESSAGE value="Simplifies Mid-Point Circle Drawing Algorithm" />
+    <MESSAGE value="Simplified Mid-Point Circle Drawing Algorithm" />
+    <MESSAGE value="Fancy Circle Drawing Algorithm" />
+    <MESSAGE value="Removed Fancy Circles for Performance" />
+    <MESSAGE value="Added Ellipse Drawing" />
+    <MESSAGE value="Fix: made BaseGraph use user defined code instead&#10;in-built code" />
+    <MESSAGE value="Fix1: rename zoomer to zoomed &#10;Fix2: made BaseGraph use user defined line draw instead of built-in&#10;Rename: rename getxOrigin() to getXOrigin() [same for getYOrigin]" />
+    <MESSAGE value="Fix: made drawPixel() to make a line instead of oval to maintain visibility when zoomed" />
+    <MESSAGE value="edit: added more ellipse for drawing" />
+    <MESSAGE value="Add: added shape_one drawing according to assignment" />
+    <MESSAGE value="Edit: name change for easier typing" />
+    <MESSAGE value="Add: Shape 2" />
+    <MESSAGE value="Fix: added degree to radian conversion" />
+    <MESSAGE value="Add: added shape 3, ig Assign Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: added shape 3, ig Assign Complete" />
+  </component>
+</project>

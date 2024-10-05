@@ -1,0 +1,42 @@
+------------------------------------Assignment 1--------------------------------------
+
+-- -- delete record from student whose deptcode = 'CST'
+-- SELECT * 
+-- FROM students;
+
+-- DELETE FROM students 
+-- WHERE deptcode = 'CST';
+
+-- SELECT * 
+-- FROM students;
+
+
+-- Find out the courses offered by the faculty dbp and nls.
+SELECT crs_code
+FROM
+	faculty,
+	crs_offrd
+WHERE
+	faculty.fac_code = crs_offrd.crs_fac_cd
+	AND (
+		faculty.fac_name = 'dbp'
+		OR faculty.fac_name = 'nls');
+
+-- Find out the courses with full details offered by dbp.
+SELECT crs_offrd
+FROM
+	faculty,
+	crs_offrd
+WHERE
+	faculty.fac_code = crs_offrd.crs_fac_cd
+	AND faculty.fac_name = 'dbp';
+
+-- Get the courses the credits of which lies between 4.0 and 6.0.
+SELECT crs_code
+FROM crs_offrd
+WHERE crs_credits BETWEEN 4.0 AND 6.0;
+
+--Get the courses the credits of which are > 6.5.
+SELECT crs_code
+FROM crs_offrd
+WHERE crs_credits > 6.5;

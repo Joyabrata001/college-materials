@@ -1,0 +1,59 @@
+  rollno  |      name       |   bdate    | deptcode | hostel | parent_inc | crs_rollno |   crs_cd   | marks  | crs_code |    crs_name    | crs_credits | crs_fac_cd | fac_code | fac_name | fac_dept 
+----------+-----------------+------------+----------+--------+------------+------------+------------+--------+----------+----------------+-------------+------------+----------+----------+----------
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | CS101      |  89.60 | CS101    | DBMS           |         4.0 | CST_F1     | CST_F1   | dbp      | CST
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | CS102      |  98.60 | CS102    | OS             |         5.0 | CST_F2     | CST_F2   | hed      | CST
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | CS103      |  67.60 | CS103    | MIS            |         6.0 | CST_F1     | CST_F1   | dbp      | CST
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | CS104      |  95.60 | CS104    | Software Engg. |         7.0 | CST_F2     | CST_F2   | hed      | CST
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | PH106      | 100.00 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        1 | Abhiroop        | 2002-09-25 | CST      |      8 |    16000.0 |          1 | CH103      |  90.00 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | EE101      |  89.40 | EE101    | ELE Course 1   |         6.0 | EE_F1      | EE_F1    | nls      | ELE
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | EE102      |  92.60 | EE102    | ELE Course 2   |         7.0 | EE_F2      | EE_F2    | jst      | ELE
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | EE103      |  87.70 | EE103    | ELE Course 3   |         5.0 | EE_F1      | EE_F1    | nls      | ELE
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | EE104      |  75.90 | EE104    | ELE Course 4   |         4.0 | EE_F2      | EE_F2    | jst      | ELE
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | PH106      |  89.30 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | CH103      |  90.80 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        2 | Karmanya        | 2001-09-25 | ELE      |      7 |    18000.0 |          2 | CS101      |  92.80 | CS101    | DBMS           |         4.0 | CST_F1     | CST_F1   | dbp      | CST
+        3 | Mehul           | 2001-08-25 | ELE      |      5 |    19000.0 |          3 | EE102      |  94.60 | EE102    | ELE Course 2   |         7.0 | EE_F2      | EE_F2    | jst      | ELE
+        3 | Mehul           | 2001-08-25 | ELE      |      5 |    19000.0 |          3 | EE103      |  82.70 | EE103    | ELE Course 3   |         5.0 | EE_F1      | EE_F1    | nls      | ELE
+        3 | Mehul           | 2001-08-25 | ELE      |      5 |    19000.0 |          3 | EE104      |  79.40 | EE104    | ELE Course 4   |         4.0 | EE_F2      | EE_F2    | jst      | ELE
+        3 | Mehul           | 2001-08-25 | ELE      |      5 |    19000.0 |          3 | PH106      |  84.30 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        3 | Mehul           | 2001-08-25 | ELE      |      5 |    19000.0 |          3 | CH103      |  97.80 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | CS101      |  82.60 | CS101    | DBMS           |         4.0 | CST_F1     | CST_F1   | dbp      | CST
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | CS102      |  68.60 | CS102    | OS             |         5.0 | CST_F2     | CST_F2   | hed      | CST
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | CS103      |  63.60 | CS103    | MIS            |         6.0 | CST_F1     | CST_F1   | dbp      | CST
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | CS104      |  90.60 | CS104    | Software Engg. |         7.0 | CST_F2     | CST_F2   | hed      | CST
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | PH106      |  82.30 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        4 | Rahul           | 2001-08-26 | CST      |      9 |    20000.0 |          4 | CH103      |  95.80 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | EE101      |  90.40 | EE101    | ELE Course 1   |         6.0 | EE_F1      | EE_F1    | nls      | ELE
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | EE102      |  91.60 | EE102    | ELE Course 2   |         7.0 | EE_F2      | EE_F2    | jst      | ELE
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | EE103      |  89.70 | EE103    | ELE Course 3   |         5.0 | EE_F1      | EE_F1    | nls      | ELE
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | EE104      |  76.90 | EE104    | ELE Course 4   |         4.0 | EE_F2      | EE_F2    | jst      | ELE
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | PH106      |  82.80 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        5 | Aditi           | 2001-09-25 | ELE      |      5 |     9000.0 |          5 | CH103      |  95.90 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | EE101      |  89.40 | EE101    | ELE Course 1   |         6.0 | EE_F1      | EE_F1    | nls      | ELE
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | EE102      |  93.60 | EE102    | ELE Course 2   |         7.0 | EE_F2      | EE_F2    | jst      | ELE
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | EE103      |  86.70 | EE103    | ELE Course 3   |         5.0 | EE_F1      | EE_F1    | nls      | ELE
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | EE104      |  70.40 | EE104    | ELE Course 4   |         4.0 | EE_F2      | EE_F2    | jst      | ELE
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | PH106      |  88.80 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+ 92005102 | Himanshu        | 2001-08-25 | ELE      |      5 |    22000.0 |   92005102 | CH103      |  91.90 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | CS101      |  83.60 | CS101    | DBMS           |         4.0 | CST_F1     | CST_F1   | dbp      | CST
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | CS102      |  34.60 | CS102    | OS             |         5.0 | CST_F2     | CST_F2   | hed      | CST
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | CS103      |  69.60 | CS103    | MIS            |         6.0 | CST_F1     | CST_F1   | dbp      | CST
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | CS104      |  90.30 | CS104    | Software Engg. |         7.0 | CST_F2     | CST_F2   | hed      | CST
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | PH106      |  82.80 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+ 92005010 | Sanjana         | 2000-08-26 | CST      |      9 |    21000.0 |   92005010 | CH103      |  99.90 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | CS101      |  90.40 | CS101    | DBMS           |         4.0 | CST_F1     | CST_F1   | dbp      | CST
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | CS102      |  90.40 | CS102    | OS             |         5.0 | CST_F2     | CST_F2   | hed      | CST
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | CS103      |  90.40 | CS103    | MIS            |         6.0 | CST_F1     | CST_F1   | dbp      | CST
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | CS104      |  90.40 | CS104    | Software Engg. |         7.0 | CST_F2     | CST_F2   | hed      | CST
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | EE101      |  90.40 | EE101    | ELE Course 1   |         6.0 | EE_F1      | EE_F1    | nls      | ELE
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | EE102      |  91.60 | EE102    | ELE Course 2   |         7.0 | EE_F2      | EE_F2    | jst      | ELE
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | EE103      |  89.70 | EE103    | ELE Course 3   |         5.0 | EE_F1      | EE_F1    | nls      | ELE
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | EE104      |  76.90 | EE104    | ELE Course 4   |         4.0 | EE_F2      | EE_F2    | jst      | ELE
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | PH106      |  82.80 | PH106    | PH Course 1    |         4.0 | PH_F1      | PH_F1    | sfgf     | PH
+        7 | master          | 2001-09-26 | ELE      |      5 |    28000.0 |          7 | CH103      |  95.90 | CH103    | CH Course 1    |         3.0 | CH_F1      | CH_F1    | poi      | CH
+        8 | Superconductors | 2000-09-26 | ARCH     |      5 |    18000.0 |            |            |        |          |                |             |            |          |          | 
+        9 | Shamra          | 2000-12-01 | ELE      |      9 |    10000.0 |            |            |        |          |                |             |            |          |          | 
+        6 | Srijan          | 2001-08-26 | ELE      |      5 |    26000.0 |            |            |        |          |                |             |            |          |          | 
+(55 rows)
+

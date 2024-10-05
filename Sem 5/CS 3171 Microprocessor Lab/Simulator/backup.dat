@@ -1,0 +1,3 @@
+true
+	   MVI A,10
+	   XRA A

@@ -1,0 +1,124 @@
+------------------------------------Assignment 3--------------------------------------
+
+--List students (rollno,name,deptcode) registered for course EE101.
+SELECT	rollno,name,deptcode
+FROM	students, crs_regd
+WHERE
+	crs_rollno = rollno
+	AND crs_cd = 'EE101';
+
+-- List students (rollno,name) in ELE dept registered for course EE101.
+SELECT 	rollno,name
+FROM	students, crs_regd
+WHERE
+	crs_rollno = rollno
+	AND deptcode = 'ELE'
+	AND crs_cd = 'EE101';
+
+-- List students (rollno,name) in ELE dept not registered for course EE101.
+-- Idea: (Students in ELE) - (Students in ELE registered for EE101) [ minus operator -> EXCEPT ]
+SELECT	rollno,name
+FROM	students, crs_regd
+WHERE
+	crs_rollno = rollno
+	AND deptcode = 'ELE'
+EXCEPT -- (- operator) [first part and second part converted to set before set minus, and output is a set also]
+SELECT	rollno,name
+FROM	students, crs_regd
+WHERE
+	crs_rollno = rollno
+	AND deptcode = 'ELE'
+	AND crs_cd = 'EE101';
+
+-- List the names of the students who have registered for both the courses 'DBMS' and 'OS'.
+-- Idea: set intersection between DBMS and OS 
+SELECT	name
+FROM	students, crs_regd, crs_offrd
+WHERE
+	crs_rollno = rollno
+	AND crs_cd = crs_code
+	AND crs_offrd.crs_name = 'DBMS'
+INTERSECT --intersection
+SELECT	name
+FROM	students, crs_regd, crs_offrd
+WHERE
+	crs_rollno = rollno
+	AND crs_cd = crs_code
+	AND crs_offrd.crs_name = 'OS';
+
+-- Find the names of the faculty members who have offered either 'MIS' or 'Software Engg.'
+-- Idea: Union of faculty who offer MIS and faculty who offer Software
+SELECT fac_name
+FROM faculty, crs_offrd
+WHERE 
+	crs_fac_cd = fac_code 
+	AND crs_name = 'MIS'
+UNION
+SELECT fac_name
+FROM faculty, crs_offrd
+WHERE
+	crs_fac_cd = fac_code
+	AND crs_name = 'Software Engg.';
+
+-- Find the names of the faculty members who have offered 'MIS' but not offered 'Software Engg.'
+-- Idea: Set difference MIS - Software
+SELECT fac_name FROM faculty, crs_offrd 
+WHERE 
+	fac_code = crs_fac_cd 
+	AND crs_name = 'MIS' 
+EXCEPT 
+SELECT fac_name 
+FROM faculty, crs_offrd 
+WHERE 
+	fac_code = crs_fac_cd 
+	AND crs_name = 'Software Engg.';
+
+-- Find out the students in each hostel who are not registered for any course.
+-- Idea : join the crs_regd and student, the person with no data on of crs_rollno will be null
+SELECT rollno, name, hostel
+FROM students
+LEFT JOIN crs_regd ON (rollno = crs_rollno) 
+WHERE crs_rollno IS NULL ORDER BY hostel;
+-- NOTE: default where condition will not work here
+-- Note: The LEFT JOIN keyword returns all records from the left table, even if there are no matches in the right table. Very Important for this question
+
+
+--Idea2: student.rollno - crs_regd.crs_rollno will give us a set of roll_no who has no subject
+SELECT rollno, name, hostel 
+FROM students
+WHERE rollno in (	SELECT rollno FROM students
+					EXCEPT
+					SELECT DISTINCT crs_rollno FROM crs_regd);
+
+
+
+-- Select the students who are in ELE dept or who have registered for course CS101.
+-- Idea: Union
+SELECT rollno,name,deptcode
+FROM students 
+WHERE deptcode = 'ELE' 
+UNION 
+SELECT rollno,name,deptcode 
+FROM students,crs_regd 
+WHERE 
+	rollno = crs_rollno 
+	AND crs_cd = 'CS101';
+
+-- Display the students who have registered to all the courses.
+-- Idea: group by crs_rollno, count(*) will give number of courses enrolled by that student
+SELECT crs_rollno, name, deptcode 
+FROM students, crs_regd
+WHERE rollno = crs_rollno
+GROUP BY crs_rollno, rollno 
+HAVING COUNT(*) = (SELECT COUNT(*) FROM crs_offrd);
+
+-- Give Grace Marks 5 in subject ‘DBMS’to the students who have scored less than 50 in that subject.
+-- Idea: Update Table
+UPDATE crs_regd 
+SET marks = marks + 5 
+FROM crs_offrd
+WHERE 
+	crs_code = crs_cd 
+	AND crs_name = 'DBMS' 
+	AND marks < 50;
+
