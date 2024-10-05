@@ -1,0 +1,4 @@
+1) you can see the plaintext characters in telnet
+	- It was replace by FTP due to the lack of security
+2) in ssh things are in gibberish
+	- It was due to the Diffie-Hellman Key Exchange which started at first (might have to forget the ssh keys)

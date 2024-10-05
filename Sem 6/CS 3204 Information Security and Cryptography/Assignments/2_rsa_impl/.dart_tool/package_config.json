@@ -1,0 +1,26 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "lints",
+      "rootUri": "file:///C:/Users/abhir/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "ninja_prime",
+      "rootUri": "file:///C:/Users/abhir/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/ninja_prime-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "rsa_impl",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    }
+  ],
+  "generated": "2022-02-28T21:06:05.309665Z",
+  "generator": "pub",
+  "generatorVersion": "2.16.0"
+}
