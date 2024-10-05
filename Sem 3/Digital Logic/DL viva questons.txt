@@ -1,0 +1,65 @@
+assignment questions
+Registers x4
+types of Registers x3
+latch vs ff     x9
+sequential circuit
+sequential circuit vs combinational circuit x2
+JK ff vs SR ff  x7
+bcd adder
+4 bit comparator
+full adder using smallest MUX   x4
+2's Complement  x3
+bcd
+bcd to gray
+gray code x2
+subtractor using ripple carry adder x2
+2's complement, and it's properties x3
+mealy machine x2
+moore machine x2
+MUX Definition  x3
+canonical form
+prime implicant and implicant  x3
+design of sequential circuit     x5
+race in conditions (SR, JK)  x3
+why JK flip flop    : all other flip flops can be make using JK Flip flop
+how to reduce equivalent states
+full adder and subtractor   x2
+full adder to full subtractor   x4
+half adder to half subtractor: Input A' and B, S = (half adder sum)'
+types of counter x2
+What is Clear and preset x3 : Preset = high, Q=1,Q'=0;     Clear = high;Q=0;Q'=1
+components of sequential circuit        : Flip Flops, combinational circuit, input, output
+join 2 not gate in cascade and explain 
+How many MUX are required for full subtractor x2  
+JK excitation table
+3 bit gray code using JK ff 
+gray to binary 
+gray to bcd x2
+shannon's decomposition x2
+synchronous vs asynchronous sequential circuit x5
+half adder x2
+half adder using MUX
+half subtractor
+SR flipflop application
+ripple adder x5
+ripple carry adder delay
+ripple counter x2
+subtraction using ripple carry adder x2
+full adder  x3
+serial adder design x4
+advantage of serial adder over parallel
+how to reduce clock frequency to half: Master Salve Approach, or edge trigger flip flop x2
+advantage of jk master slave ff
+full subtractor, Borrow using 2:1 MUX
+full subtractor using 2 and,2 xor,1 or, 1 not gate
+counter
+0-9 counter
+types of counter
+1's complement
+difference between 1's and 2's complement
+sequence detector and its state diagram
+what is propagation delay
+use of state table
+ring counter
+
+

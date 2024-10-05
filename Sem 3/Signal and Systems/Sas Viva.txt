@@ -1,0 +1,57 @@
+What are Linear Systems : Systems which follow additivity and Homogeneity
+Give an Example of Linear Systems
+Is differentiation Linear
+Are the simulation we did linear?
+
+What is impulse?
+Time Duration Of Impulse
+Height of impulse
+agar gamma hui toh height?  : 1/gamma
+
+what is Fourier Series  : Way of representing a signal as sum of sine and cosine function
+Why we use Fourier Series
+Examples of fourier series
+Why we need Fourier Series
+Components of Fourier Series
+
+Explain Linearity Of System with details on additivity
+Explain time Invariance of a System
+
+What is transfer function: H(jw), or H(s) or H(s), Y/X, Y->Output, X->Input
+what is the effect of laplace transformations on integrations and differentiation
+what is second order System
+give Example    : RLC, spring mass with dampening
+
+difference between continuos and Discrete signal
+numerical question based on this
+
+suppose I am standing in a bus stop, and I saw the bus and started running towards it, is this second order system? :no?
+
+what will be the answer if we put w = 2pi in e^jw
+
+why do we use convolution
+why do we don't have to do convolution in transform domain
+
+we write x(jw) in continuos domain, what do we write in discrete domain?    : X(e^jw)
+why we do this?
+
+Why do we fourier transform?
+How to suppress harmonics?
+
+Stability of system
+Tell stability of system across two poles in z transformation
+
+What is impulse function and step function?
+
+What happens if Fourier Series doesn't Exist    : We will not be able to transform to frequency domain, so we will not be able to able to make frequency based system (like filters)
+
+find sampling of a function
+sampling time of a function
+nyquist sampling theory
+
+what is modulation?
+Why do we need Modulation?
+Why don't we prefer Amplitude Modulation?
+
+Explain Signal in terms of Power Supply
+Relation of frequency and Power Supply of a signal

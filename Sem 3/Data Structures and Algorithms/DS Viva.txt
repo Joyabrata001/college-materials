@@ -1,0 +1,51 @@
+exporting data structure into file
+are you exporting field wise or complete node? Can you export complete node at once ?
+
+deleting a node in linked list [in paper]
+exporting to a file [structure]
+
+Write function to Delete middle element of LL
+Write function to store BST elements in array such that lchild=2i, rchild =2i+1
+Why we use void pointer in generic? 
+In generic LL and BST, what will happen if we don't use memcpy function?
+
+[File Handling Extension to GLL]
+why we need "void setCompareFn(genericLL g, int (*compFn)(void *, void*))"
+
+[Sparse Matrix GLL] [void addNodeGLL(genericLL g, void *d)]
+why we need g->dsize
+if used gave data on his own, do we need g->dsize?
+{ if void * d is a pointer to already defined data by user, then do we need dsize?}
+what would be the cost of not using g->dsize then?
+convince me that you have done coding questions on your own
+how was mid sem?
+
+Linked List Sorting
+
+Print the nodes which are having even integer
+
+Structure of generic queue
+Insertion function of gen queue
+Function to find the height of a binary tree
+How was the class
+
+what dies the name of the array indicated by
+what is #include
+difference between #include<stdio.h> and #include "stdio.h" : <> is for system header, "" for custom header
+what is better s[i]>='a' or s[i]>=97    :first one is comparing 16 bit(small) comparison, but the later is 32 bit(big) comparison, so first one is faster
+
+merge two sortedLL to a third sortedLL
+
+Evaluation of expressions [sep 4]
+generic queue
+
+how to implement generic queue of generic queue using linked list
+
+split a linked list into two lists containing even and odd positions
+genericBST and GenericQueue
+
+Random: Adjacency Matrix
+
+
+
+
